@@ -155,26 +155,6 @@
     }
 }
 
-// .MOudH {
-//     font-family: "Source Sans Pro", sans-serif;
-//     font-size: 1.2rem;
-//     text-shadow: $link-hover-glow;
-//     text-transform: uppercase;
-//     letter-spacing: 6px;
-//     margin: 0px;
-//     position: relative;
-
-//     &::after {
-//         content: "2wt2qtr   2";
-//         border-bottom: 2px solid $accent-color;
-//         box-shadow: $accent-glow-color 0 0 6px 0;
-//         display: block;
-//         position: absolute;
-//         right: 6px;
-//         left: 0px;
-//         bottom: -4px;
-//     }
-// }
 
 
 .igDfdi {
@@ -248,7 +228,8 @@ a {
         content: "" !important;
         border-bottom: 2px solid $accent-color;
         box-shadow: $accent-glow-color 0 0 6px 0;
-        display: none;
+        // display: none;
+        display: block;
         position: absolute;
         right: 6px;
         left: 0px;
