@@ -122,9 +122,14 @@ p {
     font-weight: 300;
 }
 
-
-a:hover {
-    text-shadow: $link-hover-glow;
+a {
+    color: $link-color;
+    &:hover {
+        text-shadow: $link-hover-glow;
+    }
+}
+a:not([href]):not([tabindex]) {
+    color: unset;
 }
 
 .jfXTtE {
