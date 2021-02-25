@@ -1,0 +1,187 @@
+/* Form controls */
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="time"],
+input[type="file"],
+// .custom-file,
+.custom-file-input,
+.custom-file-label,
+textarea.form-control,
+select.custom-select {
+    // border: 1px solid $lightColor;
+    &:focus {
+        outline: 0;
+        box-shadow: none;
+        // border: 1px solid $secondary-color;
+    }
+    &::placeholder {
+        font-family: $primary-font-family;
+    }
+    &::-webkit-input-placeholder {
+        /* Edge */
+        font-family: $primary-font-family;
+    }
+    &:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        font-family: $primary-font-family;
+    }
+}
+.form-control {
+    + .text-danger.hide {
+        display: none;
+    }
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+.display-6{
+    font-size: 1.3em;
+}
+.display-5{
+    font-size: 1.6em;
+}
+.display-4{
+    font-size: 1.9em;
+}
+
+.default-bg{
+    // background-color: $default-background-color;
+}
+
+.dropdown-menu {
+    .dropdown-item:hover {
+        // background-color: $primary-color;
+        color: #ffffff;
+        transition: all 300ms ease-in-out;
+    }
+}
+
+
+.title-wrapper{
+    // background-color: $title-bar-bg-color;
+}
+/* Buttons */
+.btn{
+    transition: all 300ms ease-in-out;
+    &:focus {
+        box-shadow: none;
+    }
+    border:none;
+}
+
+.btn-primary{
+    // background-color: $primary-color;
+    &:hover{
+        // background-color: $secondary-color;
+    }
+}
+
+/* TYPOGRAPHY */
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h3{
+    padding: 0;
+    font-weight: 400;
+}
+h1, h2{
+    font-weight: 500;
+    line-height: 1.2;
+}
+h1, h2, h3, h4{
+    color: $accent-color;
+    text-shadow: $accent-shadow;
+    margin: 1rem 0;
+    font-family: VT323,monospace;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: inherit;
+}
+p {
+    font-family: Source Sans Pro,sans-serif;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.jfXTtE {
+    color: $bg-color;
+    background: $accent-color;
+    height: 3rem;
+    width: 100%;
+    border: none;
+    font-family: "Source Code Pro", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1rem;
+    display: block;
+}
+
+.giXjUF {
+    font-family: "Source Code Pro", sans-serif;
+}
+/* vertical space */
+span.jsx-870436695 {
+    display: block;
+    height: 1px;
+    width: 1px;
+    margin-left: calc(15.25pt + 1px * 0);
+    margin-top: calc(15.25pt + 1px * 0);
+}
+.btn.jsx-203965537 {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0 1.375rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    min-width: 12.5rem;
+    width: auto;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: .875rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+    text-transform: capitalize;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-transition: background-color 200ms ease 0ms,box-shadow 200ms ease 0ms, border 200ms ease 0ms,color 200ms ease 0ms;
+    transition: background-color 200ms ease 0ms,box-shadow 200ms ease 0ms, border 200ms ease 0ms,color 200ms ease 0ms;
+    position: relative;
+    overflow: hidden;
+    color: #ccc;
+    background-color: #111;
+    border: 1px solid #333;
+    cursor: not-allowed;
+    pointer-events: auto;
+    box-shadow: none;
+    --geist-ui-button-padding: 1.375rem;
+    --geist-ui-button-height: 2.5rem;
+    --geist-ui-button-color: #ccc;
+    --geist-ui-button-bg: #111;
+}

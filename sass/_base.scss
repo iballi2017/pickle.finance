@@ -1,0 +1,52 @@
+
+    $bg-color: #0e1d15;
+    $body-color: #ebebeb;
+    $accent-color: #26ff91;
+    $accent-glow-color: rgba(38,255,145,0.5);
+    $accent-shadow: $accent-glow-color 0 0 18px;
+    $link-color: #53ffe2;
+    $link-hover-color: #26ff91;
+    $link-hover-glow: #53ffe2 0px 0px 8px;
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+    $primary-font-family: 'Source Code Pro', monospace;
+    $secondary-font-family: 'Source Sans Pro', sans-serif;
+
+
+@mixin mq($size){
+    @media(min-width: $size){
+        @content
+    }
+}
+
+*,*::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-size: 16px;
+    font-family: $primary-font-family;
+    font-weight: 400;
+}
+
+body{
+    width: 100%;
+    min-height: 100%;
+    color: $body-color;
+    background-color: $bg-color;
+    @include mq(768px){
+        // font-size: 22px;
+    }
+}
+
+.hqoTGF {
+    font-family: $secondary-font-family;
+    font-weight: 200;
+}
+.iQiqDj {
+    font-family: $primary-font-family;
+}
