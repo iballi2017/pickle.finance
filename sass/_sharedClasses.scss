@@ -122,6 +122,11 @@ p {
     font-weight: 300;
 }
 
+
+a:hover {
+    text-shadow: $link-hover-glow;
+}
+
 .jfXTtE {
     color: $bg-color;
     background: $accent-color;

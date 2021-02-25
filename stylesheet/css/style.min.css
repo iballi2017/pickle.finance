@@ -219,6 +219,10 @@ p {
   font-weight: 300;
 }
 
+a:hover {
+  text-shadow: #53ffe2 0px 0px 8px;
+}
+
 .jfXTtE {
   color: #0e1d15;
   background: #26ff91;
@@ -699,6 +703,14 @@ a .cawPI:after {
   border-color: #333;
 }
 
+#__next table tbody tr:hover {
+  background-color: #26ff91;
+}
+
+#__next table tbody tr:hover td {
+  color: #0e1d15;
+}
+
 #__next tr {
   -webkit-transition: none;
   transition: none;
@@ -717,6 +729,10 @@ a .cawPI:after {
   align-items: center;
   width: 100%;
   height: calc(1.875 * 16pt);
+}
+
+tr.hover.jsx-3741876535:hover {
+  background-color: #111;
 }
 
 table.jsx-1734006091 {
@@ -881,6 +897,16 @@ tr.jsx-3741876535 .cell {
   border: 1px solid #53ffe2;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.liLmVV:hover {
+  -webkit-box-shadow: #53ffe2 0px 0px 8px;
+          box-shadow: #53ffe2 0px 0px 8px;
+}
+
+.liLmVV:hover {
+  -webkit-box-shadow: #53ffe2 0px 0px 8px !important;
+          box-shadow: #53ffe2 0px 0px 8px !important;
 }
 
 .bBXOly {
