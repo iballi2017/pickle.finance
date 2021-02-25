@@ -314,6 +314,16 @@ a {
     }
 }
 
+.xs.jsx-2052437686 {
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 100%;
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+}
 .xs.jsx-3584067446 {
     -webkit-box-flex: 0;
     -webkit-flex-grow: 0;
@@ -324,8 +334,38 @@ a {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
 }
+.xs.jsx-2023822966 {
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 100%;
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+}
 @media only screen and (min-width: 650px){
+    .sm.jsx-2052437686 {
+        -webkit-box-flex: 0;
+        -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        max-width: 100%;
+        -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
     .sm.jsx-3584067446 {
+        -webkit-box-flex: 0;
+        -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        max-width: 100%;
+        -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+    .sm.jsx-2023822966 {
         -webkit-box-flex: 0;
         -webkit-flex-grow: 0;
         -ms-flex-positive: 0;
@@ -338,6 +378,16 @@ a {
 }
 
 @media only screen and (min-width: 900px){
+    .md.jsx-2052437686 {
+        -webkit-box-flex: 0;
+        -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        max-width: 66.66666666666667%;
+        -webkit-flex-basis: 66.66666666666667%;
+        -ms-flex-preferred-size: 66.66666666666667%;
+        flex-basis: 66.66666666666667%;
+    }
     .md.jsx-3584067446 {
         -webkit-box-flex: 0;
         -webkit-flex-grow: 0;
@@ -347,6 +397,16 @@ a {
         -webkit-flex-basis: 33.333333333333336% !important;
         -ms-flex-preferred-size: 33.333333333333336% !important;
         flex-basis: 33.333333333333336% !important;
+    }
+    .md.jsx-2023822966 {
+        -webkit-box-flex: 0;
+        -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        max-width: 100%;
+        -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     }
     
 }
@@ -540,6 +600,21 @@ tr.jsx-3741876535 td {
     color: #999;
     font-size: 0.875rem;
     text-align: left;
+}
+tr.jsx-3741876535 .cell {
+    min-height: 3.125rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
 }
 
 .card.jsx-868115370:hover {
